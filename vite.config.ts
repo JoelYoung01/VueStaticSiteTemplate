@@ -16,7 +16,7 @@ export default defineConfig({
     vuetify(),
     AutoImport({
       // https://github.com/unplugin/unplugin-auto-import?tab=readme-ov-file#configuration
-      include: [/\.vue$/],
+      include: [/\.vue$/, /\.vue\?vue/, /\.ts$/],
       imports: [
         {
           from: "vue",
