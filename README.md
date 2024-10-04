@@ -66,9 +66,10 @@ pnpm lint
 
 This repo comes with a GitHub Action that will deploy the site to an S3 bucket. To set this up, you'll need to add the following environment variables and secrets to your GitHub repository:
 
-Environment Variables:
+Environment Variables
 
-- `APP_NAME`
+- `APP_NAME` _lower-snake-case_
+- `APP_TITLE` _Display Name_
 
 Secrets:
 
